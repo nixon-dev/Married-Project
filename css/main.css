@@ -46,6 +46,35 @@ h1.my-heading{
     height: 100%;
 }
 
+.first-section-div{
+    position: relative;
+}
+
+.footer-main{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: var(--color-texto-claro);
+    font-family: 'fira Code', cursive;
+}
+
+.footer{
+    font-size: .8rem;
+    margin: 0;
+}
+
+.link-nix{
+    text-decoration: none;
+    color: var(--color-naranja-brillante);
+}
+
+.link-nix:hover{
+    color: var(--color-rojo-anaranjado);
+    transition: .3s;
+    cursor: pointer;
+}
+
 /*Codigo de start div*/
 .start-process-div {
     display: none;

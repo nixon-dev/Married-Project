@@ -5,13 +5,17 @@
 
 /*Codigo de div que inprime el mensaje*/
 #print-code{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
     font-family: 'Fira Code', cursive;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--color-texto-claro);
     margin-bottom: 1rem;
+}
+
+/* Reduce el tamaño de la fuente en pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+    #print-code {
+        font-size: 1.2rem;
+    }
 }
 
 /*Style color span*/
