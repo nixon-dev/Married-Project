@@ -1,0 +1,38 @@
+/*Codigo de div de canvas container para los input*/
+.canvas-container{
+    display: none;
+}
+
+/*Codigo de animacion de los div que contienen los formularios*/
+.marissa-div, .miguel-div {
+    animation: fadeIn 1s;
+}
+
+
+/*Codigo de label de los input para agregar numeros*/
+label{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    color: var(--color-naranja-brillante);
+    margin-bottom: 1rem;
+}
+
+/*Codigo de button next & play*/
+.button-next, .button-play{
+    background-color: var(--color-rojo-anaranjado);
+    color: var(--color-texto-claro);
+    font-family: 'fira Code', cursive;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    width: 150px;
+    border-radius: 0.5rem;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-next:hover, .button-play:hover{
+    background-color: var(--color-naranja-brillante);
+    transition: .3s;
+    transform: scale(1.1);
+}

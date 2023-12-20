@@ -1,0 +1,74 @@
+/*Codigos de contendor principal*/
+.print-message{
+    background: linear-gradient(45deg, #2C0735, #020202);
+}
+
+/*Codigo de div que inprime el mensaje*/
+#print-code{
+    font-family: 'Fira Code', cursive;
+    font-size: 1.5rem;
+    color: var(--color-texto-claro);
+    margin-bottom: 1rem;
+}
+
+/*Style color span*/
+
+.indent {
+    margin-left: 2em; /* Ajusta este valor a tu gusto */
+}
+
+.declaration {
+    color: #569cd6; /* azul claro para palabras reservadas como 'function' y 'let' */
+}
+
+.nameFunction {
+    color: #DCDCAA; /* amarillo para el nombre de la función y los métodos */
+}
+
+.nameVariable {
+    color: #9CDCFE; /* azul claro para los nombres de las variables */
+}
+
+.method {
+    color: #DCDCAA; /* amarillo para los métodos como 'console' */
+}
+
+.parenthesis {
+    color: #D4D4D4; /* gris claro para los paréntesis */
+}
+
+.braces {
+    color: #D4D4D4; /* gris claro para las llaves {} */
+}
+
+.template-literal {
+    color: #CE9178; /* marrón claro para los caracteres ${} */
+}
+
+/*Codigo de execute the code*/
+.text-label{
+    display: block;
+    margin-top: 20px;
+    font-family: 'Fira Code', cursive;
+    font-size: 1.5rem;
+    color: #6A9955;
+    margin-bottom: 1rem;
+}
+
+/*Codigo de boton print*/
+.button-print{
+    font-family: 'Fira Code', cursive;
+    font-size: 1.5rem;
+    display: block;
+    background-color: var(--color-rojo-anaranjado);
+    width: 200px;
+    padding: 15px;
+    color: #f1f1f1;
+    transition: .5s;
+}
+
+.button-print:hover{
+    cursor: pointer;
+    background-color: var(--color-naranja-brillante);
+    transform: scale(1.1);
+}

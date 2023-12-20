@@ -1,0 +1,36 @@
+/*Codigo de estilos de contenedor principal*/
+.message-final{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Combina las transformaciones en una sola línea */
+    padding: 0;
+}
+
+/*Codigo de mensaje final*/
+.final-message-title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: var(--color-rosa-suave);
+    margin-bottom: 20px;
+}
+
+/*Codigo de estilos de button de final message*/
+.button-message-final{
+    background-color: var(--color-rojo-anaranjado);
+    color: var(--color-texto-claro);
+    font-family: 'Fira Code', cursive;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+}
+
+.button-message-final:hover{
+    background-color: var(--color-naranja-brillante);
+    transition: .3s;
+    transform: scale(1.1);
+}

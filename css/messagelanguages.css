@@ -1,0 +1,56 @@
+/*Codigo de div de iconos infinitos*/
+.header-icon{
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center; 
+}
+
+/*Codigo de estilos de iconos*/
+.fa-brands{
+    font-size: 3.2rem;
+    color: var(--color-rosa-suave);
+}
+
+/*Codigo de animaciones de iconos infinitos*/
+@keyframes carousel {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Desplaza los íconos hacia la derecha */
+}
+
+/*Codigo de estilos de mensaje de lenguajes*/
+#coding{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    color: var(--color-naranja-brillante);
+}
+
+/*Codigo de mensaje de congratulations*/
+#congratulations{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.2rem;
+    color: var(--color-texto-claro);
+    margin-bottom: 20px;
+}
+
+/*Codigo de estilos de button de accept*/
+.button-accept{
+    background-color: var(--color-rojo-anaranjado);
+    color: var(--color-texto-claro);
+    font-family: 'Fira Code', cursive;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+}
+
+.button-accept:hover{
+    background-color: var(--color-naranja-brillante);
+    transition: .3s;
+    transform: scale(1.1);
+}

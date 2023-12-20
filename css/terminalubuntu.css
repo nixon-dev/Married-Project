@@ -1,0 +1,144 @@
+.console-log {
+    background-color: #300A24;
+    color: #FFFFFF;
+    border-radius: 7px;
+}
+
+.console-log .console-header{
+    background-color: #2E3436;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px 7px 0 0;
+}
+
+.console-header .header-pestana{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-pestana .pestana-main{
+    width: 200px;
+    border-radius: 7px 7px 0 0;
+    background-color: #300A24;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Esta propiedad asegura que los elementos hijos estén centrados verticalmente */
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 7px;
+}
+
+.close-pestana{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 7px 2px 7px;
+}
+
+.close-pestana:hover{
+    background-color: #52023195;
+    transition: .3s;
+}
+
+.close-pestana .fa-times{
+    cursor: pointer;
+}
+
+.close-pestana .fa-times:hover{
+    background-color: #52023195;
+    transition: .3s;
+}
+
+.icon-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-terminal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0; /* Restablece el margen */
+}
+
+.fa-ubuntu{
+    border-radius: 100%;
+    background: var(--color-rojo-anaranjado);
+    font-size: .7rem;
+    padding: 3px;
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+
+.header-pestana .fa-plus{
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.header-pestana .fa-plus:hover{
+    background-color: #66666663;
+    transition: .3s;
+}
+
+.icon-terminal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 100%;
+}
+
+.icon-terminal .fa-minus:hover, .icon-terminal .fa-expand:hover, .icon-terminal .fa-times:hover{
+    background-color: #66666663;
+    transition: .3s;
+    height: 100%;
+}
+
+.icon-terminal .fas{
+    padding: 16px;
+}
+
+.icon-terminal .fa-times{
+    border-radius: 0 7px 0 0 ;
+}
+
+
+.console-log .console-body{
+    padding: 20px;
+    font-family: 'Fira Code', cursive;
+
+}
+
+/*Codigo de estilos de button de terminal*/
+
+.button-terminal-accept{
+    background-color: var(--color-rojo-anaranjado);
+    color: var(--color-texto-claro);
+    font-family: 'Fira Code', cursive;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: auto; /* Añade esta línea */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-terminal-accept:hover{
+    background-color: var(--color-naranja-brillante);
+    transition: .3s;
+    transform: scale(1.1);
+}

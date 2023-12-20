@@ -1,0 +1,79 @@
+/* Add styles here */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Roboto:wght@300;500;700&display=swap');
+:root {
+    /* Colores principales */
+    --color-fondo-oscuro: #2C0735; /* Un tono oscuro de morado */
+    --color-texto-claro: #FFFFFF;
+  
+    /* Colores tonos cálidos */
+    --color-rosa-suave: #FF85A1; /* Un tono suave de rosa */
+    --color-rojo-anaranjado: #D8572A;
+  
+    /* Colores complementarios */
+    --color-morado-electrico: #6A00F4; /* Un tono eléctrico de morado */
+    --color-naranja-brillante: #F4A261;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(45deg, var(--color-fondo-oscuro), var(--color-morado-electrico));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Codigo principal de titulo*/
+h1.my-heading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    color: var(--color-naranja-brillante);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.first-section-div, .start-process-div, .print-message, .canvas-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/*Codigo de start div*/
+.start-process-div {
+    display: none;
+}
+
+/*Codigo de button start*/
+.button-start{
+    background-color: var(--color-rojo-anaranjado);
+    color: var(--color-texto-claro);
+    font-family: 'fira Code', cursive;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.button-start:hover{
+    background-color: var(--color-naranja-brillante);
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+/*Codigo de contador y sus estilos*/
+#counter {
+    font-size: 10rem;
+    color: var(--color-rojo-anaranjado);
+    transition: all 0.5s ease-in-out;
+}
+
