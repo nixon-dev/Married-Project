@@ -1,4 +1,11 @@
+
 .console-log {
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: #300A24;
     color: #FFFFFF;
     border-radius: 7px;
@@ -113,14 +120,34 @@
     border-radius: 0 7px 0 0 ;
 }
 
-
 .console-log .console-body{
     padding: 20px;
     font-family: 'Fira Code', cursive;
 
 }
 
+.line-divition-class {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #FFFFFF; /* Cambia el color según tus necesidades */
+}
+
+.name-miguel{
+    margin-top: 15px;
+}
+
 /*Codigo de estilos de button de terminal*/
+.button-console{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -10px;
+    transform: translateX(-50%);
+}
 
 .button-terminal-accept{
     background-color: var(--color-rojo-anaranjado);
@@ -131,10 +158,6 @@
     border-radius: 0.5rem;
     border: none;
     cursor: pointer;
-    margin-top: 10px;
-    margin-left: auto; /* Añade esta línea */
-    display: flex;
-    justify-content: flex-end;
 }
 
 .button-terminal-accept:hover{

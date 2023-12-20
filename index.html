@@ -26,7 +26,6 @@
 </head>
 <body>
 
-   <!-- Bloque de texto y botón de inicio -->
     <div class="first-section-div">
         <h1 class="my-heading">Hi Guys!
             <br>On this special day, I want to say congratulations for this new stage
@@ -36,21 +35,17 @@
         </button>
     </div>
 
-    <!-- Contador para el proceso -->
     <div class="start-process-div">
         <span id="counter"></span>
     </div>
 
-    <!-- Contenedor del formulario -->
     <div class="canvas-container">
         <form class="col-12 col-md-6">
-            <!-- Primer paso del formulario: Marissa -->
             <div class="marissa-div form-group mb-3">
                 <label for="number-marissa">Marissa, Type a number</label>
                 <input type="number" class="form-control form-control-lg" id="number-marissa" name="number-marissa" placeholder="Enter a number from 1 to 5" min="1" max="5">
                 <button type="button" class="button-next">Next</button>
             </div>
-            <!-- Segundo paso del formulario: Miguel -->
             <div class="miguel-div form-group mb-3" style="display: none;">
                 <label for="number-miguel">Miguel, Type a number</label>
                 <input type="number" class="form-control form-control-lg" id="number-miguel" name="number-miguel" placeholder="Enter a number from 1 to 5" min="1" max="5">
@@ -58,16 +53,13 @@
             </div>
         </form>
     </div>
-
-    <!-- Contenedor de los iconos de corazón -->
+    
     <div id="hearts-container">
         <i class="fas fa-heart heart-icon" style="display: none;"></i>
     </div>
 
-    <!-- Bloque para imprimir mensajes -->
     <div class="print-message" style="display: none;">
         <div id="print-code">
-            <!-- Código de la función para imprimir -->
             <span class="declaration">function</span> <span class="nameFunction"> printCode</span><span class="parenthesis">()</span><span class="braces">{</span>
             <p class="indent"><span class="declaration">let</span> <span class="nameVariable">marissa </span>= <span id="code-marissa"></span>;</p>
             <p class="indent"><span class="declaration">let</span> <span class="nameVariable">miguel </span>= <span id="code-miguel"></span>;</p>
@@ -75,75 +67,76 @@
             <br><span class="braces">}</span>
         </div>
         <br>
-        <!-- Etiqueta para ejecutar el código -->
         <label class="text-label">//Execute the code</label>
         <input class="button-print" type="button" value="printCode()">
     </div>
 
-    <!-- Iconos de lenguajes de programación -->
     <div class="icon-languages" style="display: none;">
         <div class="header-icon">
-            <!-- Iconos de lenguajes de programación -->
             <i class="fa-brands fa-python" style="display: none;"></i>
-            <i class="fa-brands fa-golang" style="display: none;"></i>
+            <i class="fa-brands fa-js" style="display: none;"></i>
             <i class="fa-brands fa-java" style="display: none;"></i>
-            <i class="fa-brands fa-php" style="display: none;"></i>
-            <i class="fa-brands fa-javascript" style="display: none;"></i>
-            <i class="fa-brands fa-csharp" style="display: none;"></i>
-            <i class="fa-brands fa-cplusplus" style="display: none;"></i>
             <i class="fa-brands fa-c" style="display: none;"></i>
-            <i class="fa-brands fa-ruby" style="display: none;"></i>
-            <i class="fa-brands fa-swift" style="display: none;"></i>
-            <i class="fa-brands fa-kotlin" style="display: none;"></i>
-            <i class="fa-brands fa-dart" style="display: none;"></i>
-            <i class="fa-brands fa-rust" style="display: none;"></i>
-            <i class="fa-brands fa-scala" style="display: none;"></i>
-            <i class="fa-brands fa-haskell" style="display: none;"></i>
-            <i class="fa-brands fa-elixir" style="display: none;"></i>
+            <i class="fa-brands fa-php" style="display: none;"></i>
+            <i class="fa-brands fa-html5" style="display: none;"></i>
+            <i class="fa-brands fa-css3-alt" style="display: none;"></i>
+            <i class="fa-brands fa-sass" style="display: none;"></i>
+            <i class="fa-brands fa-less" style="display: none;"></i>
+            <i class="fa-brands fa-react" style="display: none;"></i>
+            <i class="fa-brands fa-angular" style="display: none;"></i>
+            <i class="fa-brands fa-vuejs" style="display: none;"></i>
+            <i class="fa-brands fa-node-js" style="display: none;"></i>
+            <i class="fa-brands fa-docker" style="display: none;"></i>
             <i class="fa-brands fa-wordpress" style="display: none;"></i>
             <i class="fa-brands fa-golang" style="display: none;"></i>
-            <i class="fa-brands fa-docker" style="display: none;"></i>
-            <i class="fa-brands fa-ubuntu" style="display: none;"></i>
-            <i class="fa-brands fa-apple" style="display: none;"></i>
-            <i class="fa-brands fa-windows" style="display: none;"></i>
-            <i class="fa-brands fa-linux" style="display: none;"></i>
-            <i class="fa-brands fa-android" style="display: none;"></i>
         </div>
-        <!-- Mensaje relacionado con los lenguajes de programación -->
+
         <div class="message-coding" style="display: none;">
             <span id="coding">On behalf of each language we thank you for your passion for technology,</span><br><span id="congratulations" style="display: none;">Congratulations!</span>
             <input style="display: none;" class="button-accept" type="button" value="Accept">
         </div>
     </div>
 
-    <!-- Mensaje para ambos -->
     <div class="message-both" style="display: none;">
-        <!-- Consola para mostrar mensajes -->
         <div class="console-log" style="display: none;">
             <header class="console-header">
-                <!-- Encabezado de la consola -->
-                <!-- ... (botones y elementos del encabezado) ... -->
+                <div class="header-pestana">
+                    <div class="pestana-main">
+                        <div class="icon-text">
+                            <i class="fab fa-ubuntu"></i>
+                            <p class="title-terminal">Terminal</p>
+                        </div>
+                        <div class="close-pestana">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="icon-terminal">
+                    <i class="fas fa-minus"></i>
+                    <i class="fas fa-expand"></i>
+                    <i class="fas fa-times"></i>
+                </div>
             </header>
             <div class="console-body">
-                <!-- Cuerpo de la consola -->
                 <p id="console-body-print">Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 5.15.133.1-microsoft-standard-WSL2 x86_64)
                 <br>
                 <br>user@userdev:~$<span id="code" style="display: none;"></span></p>
-                <!-- Mensajes de Marissa y Miguel -->
                 <p class="name-marissa" style="display: none;">Marissa:</p>
                 <p id="console-marissa" style="display: none;"></p>
-                <p id="line-divition" style="display: none;">-------------------------------------------</p>
+                <span id="line-divition" class="line-divition-class" style="display: none;"></span>
                 <p class="name-miguel" style="display: none;">Miguel:</p>
                 <p id="console-miguel" style="display: none;"></p>
             </div>
         </div>
-        <input style="display: none;" class="button-terminal-accept" type="button" value="Accept">
+        <div class="button-console">
+            <input style="display: none;" class="button-terminal-accept" type="button" value="Accept">
+        </div>
     </div>
 
-    <!-- Mensaje final -->
     <div class="message-final" style="display: none;">
-        <h1 class="final-message-title" style="display: none;"></h1>
-        <button style="display: none;" class="button-message-final">Start the process again</button>
+            <h1 class="final-message-title" style="display: none;"></h1>
+            <button style="display: none;" class="button-message-final">Start the process again</button>
     </div>
         
     <script src="js/main.js"></script>

@@ -5,6 +5,9 @@
 
 /*Codigo de div que inprime el mensaje*/
 #print-code{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     font-family: 'Fira Code', cursive;
     font-size: 1.5rem;
     color: var(--color-texto-claro);
