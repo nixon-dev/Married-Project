@@ -14,7 +14,7 @@
 /* Reduce el tamaño de la fuente en pantallas más pequeñas */
 @media screen and (max-width: 600px) {
     #print-code {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
 

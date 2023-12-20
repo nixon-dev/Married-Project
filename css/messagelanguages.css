@@ -24,10 +24,12 @@
 .message-coding{
     text-align: center;
     width: 100%;
+    height: auto; /* Ajusta este valor según tus necesidades */
     position: absolute;
-    top: 300px;
+    top: 270px;
     left: 50%;
     transform: translateX(-50%);
+    overflow: auto; /* Añade esta línea */
 }
 
 /*Codigo de estilos de mensaje de lenguajes*/
